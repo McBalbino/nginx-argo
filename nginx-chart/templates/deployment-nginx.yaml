@@ -10,7 +10,7 @@ metadata:
         name: pod-1-deployment
         namespace: namespace-nginx
 spec:
-        replicas: 3
+        replicas: 6
         selector:
                 matchLabels:
                         app: pod-1
