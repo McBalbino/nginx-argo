@@ -1,3 +1,9 @@
+---
+kind: Namespace
+apiVersion: v1
+metadata:
+  name: namespace-nginx
+---
 apiVersion: apps/v1
 kind: Deployment
 metadata:
